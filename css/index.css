@@ -103,7 +103,7 @@ h1, legend{
     }
 
   }
-  @media only screen and (min-height: 122vw) {
+  @media only screen and (min-height: 80vw) {
     /* For mobile phones: */
     #header div{
         display: inline-block;
