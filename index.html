@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/center.css">
+    <script src="js/exec.js"></script>
     <title>Valdotorium</title>
 </head>
 <body>
@@ -39,9 +40,10 @@
     <div id="center">
         <div id="equation"><label for="input">Input Number or Equation</label><input type="text" id="input" title="input number or equation"></div>
         <div id="controls" name="from base">
-            <input id="frombase" type="number" max="32" min="2" title="from base">
-            <input id="tobase" type="number" max="32" min="2" title="to base">
-            <input id="equations" type="checkbox" title="solve equations?">"
+            From Base:<input id="frombase" type="number" max="32" min="2" title="from base"><br>
+            To Base:<input id="tobase" type="number" max="32" min="2" title="to base"><br>
+            Solve Equations? <input id="equations" type="checkbox" title="solve equations?">
+            <button id="convert">Convert</button>
         </div>
     </div>
 </body>
